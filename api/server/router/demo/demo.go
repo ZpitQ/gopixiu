@@ -21,7 +21,7 @@ import "github.com/gin-gonic/gin"
 // demoRouter is a router to talk with the cicd controller
 type demoRouter struct{}
 
-// NewRouter initializes a new container router
+// NewRouter initializes a new container router1111
 func NewRouter(ginEngine *gin.Engine) {
 	s := &demoRouter{}
 	s.initRoutes(ginEngine)
